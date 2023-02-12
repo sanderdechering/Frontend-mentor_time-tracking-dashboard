@@ -2,79 +2,40 @@
 </script>
 
 <template>
-  Report for
-  Jeremy Robson
+<!--  Report for-->
+<!--  Jeremy Robson-->
 
-  Daily
-  Weekly
-  Monthly
+<!--  Daily-->
+<!--  Weekly-->
+<!--  Monthly-->
+  <main class="w-full h-screen bg-My-very-dark-blue">
+    <div class="m-auto px-10 pt-10">
+      <!--   Profile   -->
+      <div class="relative bg-My-blue flex rounded-2xl py-6">
+        <img class="w-14 h-14 border-2 border-white rounded-full ml-8 mr-4" src="/images/image-jeremy.png">
+        <div class="my-auto">
+          <h2 class="text-white/40 text-sm">Report for</h2>
+          <h1 class="text-white text-xl font-light">Jeremy Robson</h1>
+        </div>
+      </div>
+      <div class="bg-My-dark-blue mt-[-20px] rounded-b-2xl">
+        <ul class="flex justify-around text-white/40 pt-10 pb-5">
+            <li>Daily</li>
+            <li class="text-white">Weekly</li>
+            <li>Monthly</li>
+        </ul>
+      </div>
+      <!--   Timetracking Cards   -->
 
-  Work
-  5hrs <!-- daily -->
-  Previous - 7hrs <!-- daily -->
-  32hrs <!-- weekly -->
-  Previous - 36hrs <!-- weekly -->
-  103hrs <!-- monthly -->
-  Previous - 128hrs <!-- monthly -->
-
-  Play
-  1hr <!-- daily -->
-  Previous - 2hrs <!-- daily -->
-  10hrs <!-- weekly -->
-  Previous - 8hrs <!-- weekly -->
-  23hrs <!-- monthly -->
-  Previous - 29hrs <!-- monthly -->
-
-  Study
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 7hrs <!-- weekly -->
-  13hrs <!-- monthly -->
-  Previous - 19hrs <!-- monthly -->
-
-  Exercise
-  1hr <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 5hrs <!-- weekly -->
-  11hrs <!-- monthly -->
-  Previous - 18hrs <!-- monthly -->
-
-  Social
-  1hr <!-- daily -->
-  Previous - 3hrs <!-- daily -->
-  5hrs <!-- weekly -->
-  Previous - 10hrs <!-- weekly -->
-  21hrs <!-- monthly -->
-  Previous - 23hrs <!-- monthly -->
-
-  Self Care
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  2hrs <!-- weekly -->
-  Previous - 2hrs <!-- weekly -->
-  7hrs <!-- monthly -->
-  Previous - 11hrs <!-- monthly -->
+    </div>
+  </main>
 
 
-  <div class="attribution">
+  <div class="attribution ">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div>
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
 </style>
