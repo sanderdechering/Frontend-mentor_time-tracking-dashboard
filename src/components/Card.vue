@@ -3,7 +3,7 @@
     <div class="bg- h-20 overflow-hidden rounded-t-2xl" :class="useStyles()">
       <img
         class="ml-auto mt-[-10px] mr-4 max-h-fit"
-        :src="'/' + jsonData.imageFileName"
+        :src="getImageUrl(jsonData.imageFileName)"
         alt="svg image of bag"
       />
     </div>
@@ -66,6 +66,12 @@ const props = defineProps<{
 }>();
 
 let jsonData: DataObject = JSON.parse(props.dataObject);
+
+function getImageUrl(name: string) {
+  return new URL(`../../images/${name}`, import.meta.url).href;
+}
+
+console.log();
 
 function useStyles() {
   const styles = {
