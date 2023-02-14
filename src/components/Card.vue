@@ -3,7 +3,7 @@
     <div class="bg- h-20 overflow-hidden rounded-t-2xl" :class="useStyles()">
       <img
         class="ml-auto mt-[-10px] mr-4 max-h-fit"
-        :src="'../../images/' + jsonData.imageFileName"
+        :src="'/images/' + jsonData.imageFileName"
         alt="svg image of bag"
       />
     </div>
@@ -14,7 +14,7 @@
         <h3 class="text-xl text-white lg:text-lg">{{ jsonData.title }}</h3>
         <img
           class="ml-auto mt-3 h-fit w-auto"
-          src="../../images/icon-ellipsis.svg"
+          src="/images/icon-ellipsis.svg"
           alt="svg icon"
         />
       </div>
