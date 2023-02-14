@@ -60,7 +60,7 @@ let json = reactive({
   ready: false,
 });
 onMounted(() => {
-  fetch("/data.json")
+  fetch("data.json")
     .then((response) => response.json())
     .then((data) => {
       json.object = data;
