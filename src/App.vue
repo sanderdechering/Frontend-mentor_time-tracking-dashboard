@@ -42,7 +42,7 @@
         href="https://www.frontendmentor.io?ref=challenge"
         target="_blank"
         class="text-My-blue"
-        >Frontend Mentor</a
+        >Frontend Mento</a
       >. Coded by
       <a href="https://sanderdechering.nl" class="text-My-blue"
         >Sander Dechering</a
