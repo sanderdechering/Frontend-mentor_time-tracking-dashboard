@@ -1,7 +1,7 @@
 [
   {
     "title": "Work",
-    "bgColor": "bg-My-light-red-work",
+    "bgColor": "work",
     "imageFileName": "icon-work.svg",
     "image": "icon-work.svg",
     "timeframes": {
@@ -21,7 +21,7 @@
   },
   {
     "title": "Play",
-    "bgColor": "bg-My-soft-blue-play",
+    "bgColor": "play",
     "imageFileName": "icon-play.svg",
     "timeframes": {
       "daily": {
@@ -40,7 +40,7 @@
   },
   {
     "title": "Study",
-    "bgColor": "bg-My-light-red-study",
+    "bgColor": "study",
     "imageFileName": "icon-study.svg",
     "timeframes": {
       "daily": {
@@ -59,7 +59,7 @@
   },
   {
     "title": "Exercise",
-    "bgColor": "bg-My-lime-green-exercise",
+    "bgColor": "exercise",
     "imageFileName": "icon-exercise.svg",
     "timeframes": {
       "daily": {
@@ -78,7 +78,7 @@
   },
   {
     "title": "Social",
-    "bgColor": "bg-My-violet-social",
+    "bgColor": "social",
     "imageFileName": "icon-social.svg",
 
     "timeframes": {
@@ -98,7 +98,7 @@
   },
   {
     "title": "Self Care",
-    "bgColor": "bg-My-soft-orange-self-care",
+    "bgColor": "selfCare",
     "imageFileName": "icon-self-care.svg",
     "timeframes": {
       "daily": {

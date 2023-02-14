@@ -33,7 +33,7 @@
         class="grid h-fit grid-cols-1 lg:w-5/6 lg:grid-cols-3"
         v-if="json.ready === true"
       >
-        <Card v-for="item in json.object" :data="item" />
+        <Card v-for="item in json.object" :data-object="JSON.stringify(item)" />
       </div>
     </div>
     <div class="attribution mx-auto max-w-[1100px] p-12 text-center text-white">
@@ -53,13 +53,12 @@
 
 <script setup lang="ts">
 import Card from "./components/Card.vue";
-import { onBeforeMount, onMounted, reactive } from "vue";
+import { onMounted, reactive } from "vue";
 
 let json = reactive({
   object: JSON,
   ready: false,
 });
-let myJson = JSON;
 onMounted(() => {
   fetch("/data.json")
     .then((response) => response.json())
