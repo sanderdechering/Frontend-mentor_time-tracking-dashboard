@@ -3,7 +3,7 @@
     <div class="bg- h-20 overflow-hidden rounded-t-2xl" :class="useStyles()">
       <img
         class="ml-auto mt-[-10px] mr-4 max-h-fit"
-        :src="'/images/' + jsonData.imageFileName"
+        :src="'/' + jsonData.imageFileName"
         alt="svg image of bag"
       />
     </div>
